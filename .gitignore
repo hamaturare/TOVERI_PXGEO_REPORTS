@@ -1,0 +1,56 @@
+# Ignorar ambientes virtuais
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Ignorar a pasta venv
+Reports_2_compile/venv/
+
+# Ignorar qualquer pasta que comece com dist dentro de Reports_2_compile
+Reports_2_compile/dist*/
+Reports_2_compile/dist/
+
+# Ignorar qualquer pasta build
+Reports_2_compile/build/
+
+# Ignorar arquivos de build e distribuição
+dist/
+build/
+dist*/
+*.egg-info/
+*.whl
+*.egg
+
+# Ignorar caches e arquivos temporários
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+
+# Ignorar __pycache__ em qualquer lugar
+**/__pycache__/
+
+# Ignorar arquivos de configuração do editor
+*.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de teste
+tests/__pycache__/
+*.cover
+.cover/
+nosetests.xml
+*.pot
+
+# Outros
+*.DS_Store
+*.bak
+*.tmp
+*.swp

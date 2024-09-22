@@ -1,0 +1,9 @@
+Error: No module named 'openpyxl'
+Invalid date format entered: sdas
+Error: time data 'as' does not match format '%Y-%m-%d'
+Invalid date format entered: sdasd
+Invalid date format entered: 
+Invalid date format entered: dasda
+Invalid date format entered: asas
+Error: DataFrame is not loaded. Please read the table first.
+Error: DataFrame is not loaded. Please read the table first.
