@@ -16,7 +16,8 @@ header_rows = int(config.get('PARAMS','CUMULATIVE_HEADERS'))
 df = pd.read_csv(cumulative_destine, skiprows=header_rows,encoding='latin1')
 columns = ['NodeCode','Index','Preplot Easting','Preplot Northing','Aslaid Easting','Aslaid Northing','Aslaid Azimuth']
 
-#df = df[df['Index'] == 1]
+
+#df = df[df['Index'] == 1] #Uncoment here if you want only to use index 1
 
 # Calculate deltas
 df['delta_x'] = df['Aslaid Easting'] - df['Preplot Easting']

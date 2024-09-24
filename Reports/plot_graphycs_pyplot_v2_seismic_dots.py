@@ -19,7 +19,8 @@ df['delta_x'] = df['X_seismic'] - df['X_preplot']
 df['delta_y'] = df['Y_seismic'] - df['Y_preplot']
 # Calculate the distance from 0, 0 using the deltas
 df['Distance'] = np.sqrt(df['delta_x']**2 + df['delta_y']**2)
-df = df[df['index'] == 1]
+
+#df = df[df['Index'] == 1] #Uncoment here if you want only to use index 1
 
 
 # Function to plot the circles of radius
